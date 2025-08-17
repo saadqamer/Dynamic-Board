@@ -1,0 +1,47 @@
+.board-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board-row {
+  display: flex;
+}
+
+.board-square {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.board-square:hover {
+  background-color: yellow;
+}
+
+.black-square {
+  background-color: black;
+}
+
+.white-square {
+  background-color: white;
+}
+
+.highlighted-square {
+  background-color: yellow;
+}
+
+.controls-container {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+
+.reset-container {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
